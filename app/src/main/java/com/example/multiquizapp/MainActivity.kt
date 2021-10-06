@@ -16,8 +16,9 @@ class MainActivity : AppCompatActivity() {
         val binding = DataBindingUtil.setContentView<ActivityMainBinding>(this,
             R.layout.activity_main)
 
+
         binding.button.setOnClickListener(){
-            if (binding.editTextTextPersonName.toString().isEmpty()){
+            if (binding.editTextTextPersonName.text.isEmpty()){
                 val alert = "Ingrese los valores solicitados"
                 Toast.makeText(this, alert, Toast.LENGTH_LONG)
                     .show()
@@ -28,6 +29,4 @@ class MainActivity : AppCompatActivity() {
             }
         }
     }
-
-
 }
