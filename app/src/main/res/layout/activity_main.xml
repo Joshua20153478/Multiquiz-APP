@@ -17,46 +17,57 @@
                 android:id="@+id/logo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="30dp"
-                android:layout_marginTop="30dp"
-                android:layout_marginEnd="30dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
                 android:layout_marginBottom="500dp"
-                android:src="@drawable/img"/>
+                android:src="@drawable/img" />
 
             <Button
                 android:id="@+id/button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_centerHorizontal="true"
-                android:layout_marginStart="162dp"
-                android:layout_marginTop="380dp"
-                android:layout_marginBottom="283dp"
-                android:layout_weight="1"
+                android:layout_below="@+id/viewbar"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="150dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="150dp"
+                android:layout_marginBottom="290dp"
                 android:background="@drawable/bottonsumbit"
-                android:text="@string/sumbit" />
+                android:paddingHorizontal="15dp"
+                android:text="@string/sumbit"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textStyle="bold" />
 
             <View
+                android:id="@+id/viewbar"
                 android:layout_width="250dp"
                 android:layout_height="2dp"
                 android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="340dp"
                 android:layout_marginStart="200dp"
+                android:layout_marginTop="300dp"
                 android:background="@color/white" />
 
             <EditText
                 android:id="@+id/editTextTextPersonName"
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_centerHorizontal="true"
-                android:layout_marginStart="88dp"
-                android:layout_marginTop="290dp"
-                android:layout_marginBottom="400dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="99dp"
+                android:layout_marginTop="250dp"
+                android:layout_marginEnd="102dp"
+                android:autoSizeMinTextSize="15dp"
+                android:autoSizeTextType="uniform"
                 android:background="@drawable/back_text_main"
                 android:ems="10"
                 android:hint="@string/Participant"
                 android:inputType="textPersonName"
                 android:paddingHorizontal="15dp"
+                android:paddingVertical="10dp"
                 android:text=""
                 android:textColor="@color/white"
                 android:textColorHint="@color/white"
@@ -67,7 +78,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginStart="10dp"
-                android:layout_marginTop="480dp"
+                android:layout_marginTop="400dp"
                 android:layout_marginEnd="10dp"
                 android:layout_marginBottom="20dp"
                 android:background="@drawable/back_main_creators">
@@ -77,17 +88,17 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
-                    android:textStyle="bold"
-                    android:textSize="20dp"
-                    android:paddingHorizontal="10dp"
-                    android:paddingVertical="3dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="100dp"
                     android:layout_weight="1"
+                    android:background="@drawable/back_text_main"
+                    android:paddingHorizontal="10dp"
+                    android:paddingVertical="3dp"
+                    android:text="@string/creators"
                     android:textColor="@color/white"
 
-                    android:background="@drawable/back_text_main"
-                    android:text="@string/creators" />
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -139,35 +150,35 @@
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="@color/light_grey"
                     android:layout_marginStart="200dp"
                     android:layout_marginTop="50dp"
                     android:layout_marginEnd="10dp"
-                    android:layout_marginBottom="20dp">
+                    android:layout_marginBottom="20dp"
+                    android:background="@color/light_grey">
 
                     <TextView
                         android:id="@+id/Joshua"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textStyle="bold"
                         android:layout_centerHorizontal="true"
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="10dp"
                         android:layout_marginEnd="10dp"
-                        android:textColor="@color/black"
                         android:layout_weight="1"
                         android:text="Andrew Joshua Craig Montiel"
-                        android:textAlignment="center" />
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/NumCuenta2"
-                        android:textStyle="bold"
-                        android:textColor="@color/black"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="50dp"
-                        android:text="20154378" />
+                        android:text="20154378"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
 
                     <ImageView
                         android:id="@+id/imgjosh"
