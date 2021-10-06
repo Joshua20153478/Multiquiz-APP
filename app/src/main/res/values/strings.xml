@@ -18,5 +18,6 @@
     <string name="Cinciso3">one-time payment of $ 99.</string>
     <string name="Cinciso2">Closed code, few free apps, little novel interface.</string>
     <string name="Cinciso1">Angular, Html, Javascript.</string>
+    <string name="alert">Enter the requested values</string>
 
 </resources>

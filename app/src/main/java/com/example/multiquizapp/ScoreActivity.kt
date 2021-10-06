@@ -19,6 +19,9 @@ class ScoreActivity:  AppCompatActivity() {
         var score = bundle?.getInt("score")
         var nameUser = bundle?.getString("name")
 
+        binding.name.text = nameUser.toString()
+        binding.score.text = score.toString()
+
         binding.tryAgain.setOnClickListener(){
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)

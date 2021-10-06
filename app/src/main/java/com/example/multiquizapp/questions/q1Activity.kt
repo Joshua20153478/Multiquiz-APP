@@ -2,14 +2,11 @@ package com.example.multiquizapp.questions
 
 import android.content.Intent
 import android.os.Bundle
-import android.util.Log
-import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import com.example.multiquizapp.R
-import com.example.multiquizapp.databinding.ActivityMainBinding
 import com.example.multiquizapp.databinding.ActivityQ1Binding
-import com.example.multiquizapp.questions.q1Activity.Companion.score
+
 
 class q1Activity: AppCompatActivity() {
 

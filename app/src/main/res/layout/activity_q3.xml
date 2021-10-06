@@ -108,7 +108,7 @@
             android:layout_marginTop="500dp">
 
             <TextView
-                android:id="@+id/inciso3"
+                android:id="@+id/incisoB3"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginStart="135dp"

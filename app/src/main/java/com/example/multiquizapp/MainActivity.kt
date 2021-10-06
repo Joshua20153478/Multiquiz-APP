@@ -19,13 +19,14 @@ class MainActivity : AppCompatActivity() {
 
         binding.button.setOnClickListener(){
             if (binding.editTextTextPersonName.text.isEmpty()){
-                val alert = "Ingrese los valores solicitados"
+                val alert = getString(R.string.alert)
                 Toast.makeText(this, alert, Toast.LENGTH_LONG)
                     .show()
             }
             else{
                 val intent = Intent(this, q1Activity::class.java).apply {
-                    putExtra("name", binding.editTextTextPersonName.text)
+                    val name = binding.editTextTextPersonName.text.toString()
+                    putExtra("name", name)
                 }
                 startActivity(intent)
             }
