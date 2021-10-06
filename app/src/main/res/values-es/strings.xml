@@ -4,4 +4,6 @@
     <string name="creators">Creadores de la App </string>
     <string name="Participant">Nombre</string>
     <string name="sumbit">Siguiente</string>
+    <string name="play">volver a probar</string>
+    <string name="score">resultados</string>
 </resources>

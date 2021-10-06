@@ -106,22 +106,22 @@
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="10dp"
                         android:layout_marginEnd="10dp"
-                        android:textStyle="bold"
                         android:layout_marginBottom="10dp"
                         android:layout_weight="1"
-                        android:textColor="@color/black"
                         android:text="Maria Alejandra Velazco Baltazar"
-                        android:textAlignment="center" />
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/NumCuenta1"
-                        android:textStyle="bold"
-                        android:textColor="@color/black"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="50dp"
-                        android:text="20197797" />
+                        android:text="20197797"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
 
                     <ImageView
                         android:id="@+id/imgale"

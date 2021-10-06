@@ -5,9 +5,80 @@
 
     </data>
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:src="@drawable/img_3"
+        android:background="@drawable/img_2">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/img_3"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="500dp"
+            android:layout_marginEnd="10dp"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="250dp"
+            android:layout_marginBottom="350dp"
+            android:layout_marginEnd="100dp"
+            />
 
-    </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="400dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/back_results">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="150dp"
+                android:layout_marginBottom="180dp"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/back"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:paddingHorizontal="5dp"
+                android:text="@string/Participant"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="70dp"
+                android:layout_marginEnd="70dp"
+                android:layout_marginBottom="100dp"
+                android:layout_marginTop="120dp"
+                android:background="@drawable/back"
+                android:paddingHorizontal="5dp"
+                android:text="@string/score"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:autoSizeTextType="uniform"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/play"
+                android:layout_marginTop="200dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginStart="50dp"
+                android:autoSizeTextType="uniform"
+                android:autoSizeMaxTextSize="20dp"
+                />
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
 </layout>
