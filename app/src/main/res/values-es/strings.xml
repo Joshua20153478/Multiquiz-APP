@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Multiquiz APP</string>
+    <string name="creators">Creadores de la App </string>
+    <string name="Participant">Nombre</string>
+    <string name="sumbit">Siguiente</string>
+    <string name="play">volver a probar</string>
+    <string name="score">resultados</string>
+    <string name="question">Pregunta</string>
+    <string name="question1">Frameworks para desarrollo Híbrido</string>
+    <string name="question2">3 ventajas de android</string>
+    <string name="question3">Costo de publicación de un app en Play store</string>
+    <string name="Ainciso1">React native, flapping, ionic.</string>
+    <string name="Ainciso2">soporta multiples navegadores, Rendimiento de bateria, Sistema multitarea.</string>
+    <string name="Ainciso3">Pago único de 25$.</string>
+    <string name="Binciso2">Baja calidad de apps, riesgos de vulnerabilidad, Problemas de sincronizacion.</string>
+    <string name="Binciso1">Atom, Visual Studio, Xamarin.</string>
+    <string name="Binciso3">Pago anual de 25$.</string>
+    <string name="Cinciso3">pago único de 99$.</string>
+    <string name="Cinciso2">Codigo cerrado, pocas apps gratuitas, interfaz poca novedosa.</string>
+    <string name="Cinciso1">Angular, Html, Javascript.</string>
+</resources>
