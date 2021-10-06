@@ -19,31 +19,28 @@ class q3Activity: AppCompatActivity() {
         val binding = DataBindingUtil.setContentView<ActivityQ3Binding>(this,
             R.layout.activity_q3)
 
-
-
         val points = getIntent()
         val bundle = points.getExtras()
-        val score = bundle?.getInt("score")
+        var score = bundle?.getInt("score")
+        var nameUser = bundle?.getString("name")
 
-        binding.root.setOnClickListener() {
-            when (binding.root) {
-
-                binding.incisoA3 -> {
-                    q1Activity.score += 1
-                    intent.putExtra("score", q1Activity.score)
+                binding.incisoA3.setOnClickListener(){
+                    score = score?.plus(1)
+                    intent.putExtra("score", score)
+                    intent.putExtra("name", nameUser)
                     startActivity(intent)
                 }
-                binding.incisoB3 -> {
-                    q1Activity.score += 0
-                    intent.putExtra("score", q1Activity.score)
+                binding.incisoB3.setOnClickListener(){
+                    score = score?.plus(0)
+                    intent.putExtra("score", score)
+                    intent.putExtra("name", nameUser)
                     startActivity(intent)
                 }
-                binding.incisoC3 -> {
-                    q1Activity.score += 0
-                    intent.putExtra("score", q1Activity.score)
+                binding.incisoC3.setOnClickListener() {
+                    score = score?.plus(0)
+                    intent.putExtra("score", score)
+                    intent.putExtra("name", nameUser)
                     startActivity(intent)
-                }
-            }
         }
     }
 }

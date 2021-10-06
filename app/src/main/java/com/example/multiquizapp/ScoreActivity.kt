@@ -14,6 +14,11 @@ class ScoreActivity:  AppCompatActivity() {
         val binding = DataBindingUtil.setContentView<ActivityScoreBinding>(this,
             R.layout.activity_score)
 
+        val points = getIntent()
+        val bundle = points.getExtras()
+        var score = bundle?.getInt("score")
+        var nameUser = bundle?.getString("name")
+
         binding.tryAgain.setOnClickListener(){
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)

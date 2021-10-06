@@ -24,7 +24,9 @@ class MainActivity : AppCompatActivity() {
                     .show()
             }
             else{
-                val intent = Intent(this, q1Activity::class.java)
+                val intent = Intent(this, q1Activity::class.java).apply {
+                    putExtra("name", binding.editTextTextPersonName.text)
+                }
                 startActivity(intent)
             }
         }

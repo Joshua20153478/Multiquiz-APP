@@ -19,26 +19,25 @@ class q2Activity: AppCompatActivity() {
         val points = getIntent()
         val bundle = points.getExtras()
         var score = bundle?.getInt("score")
+        var nameUser = bundle?.getString("name")
 
-        binding.root.setOnClickListener() {
-            when (binding.root) {
-
-                binding.incisoA2 -> {
+                binding.incisoA2.setOnClickListener() {
                     score = score?.plus(1)
                     intent.putExtra("score", score)
+                    intent.putExtra("name", nameUser)
                     startActivity(intent)
                 }
-                binding.incisoB2 -> {
+                binding.incisoB2.setOnClickListener() {
                     score = score?.plus(0)
                     intent.putExtra("score", score)
+                    intent.putExtra("name", nameUser)
                     startActivity(intent)
                 }
-                binding.incisoC2 -> {
+                binding.incisoC2.setOnClickListener() {
                     score = score?.plus(0)
                     intent.putExtra("score", score)
+                    intent.putExtra("name", nameUser)
                     startActivity(intent)
                 }
-            }
-        }
     }
 }
