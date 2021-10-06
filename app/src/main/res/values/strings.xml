@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Multiquiz APP</string>
+    <string name="creators">Creators of the APP </string>
+    <string name="Participant">Name</string>
+    <string name="sumbit">Next</string>
 </resources>

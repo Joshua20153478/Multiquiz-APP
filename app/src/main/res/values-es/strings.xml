@@ -1,2 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_name">Multiquiz APP</string>
+    <string name="creators">Creadores de la App </string>
+    <string name="Participant">Nombre</string>
+    <string name="sumbit">Siguiente</string>
+</resources>
