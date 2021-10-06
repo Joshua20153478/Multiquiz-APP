@@ -5,4 +5,18 @@
     <string name="sumbit">Next</string>
     <string name="play">try again</string>
     <string name="score">results</string>
+    <string name="question">Question</string>
+    <string name="question1">Frameworks for Hybrid development</string>
+    <string name="question2">3 advantages of android</string>
+    <string name="question3">Cost of publishing an app in the Play store</string>
+    <string name="Ainciso1">React native, flapping, ionic.</string>
+    <string name="Ainciso2">Supports multiple browsers, Battery performance, Multitasking system.</string>
+    <string name="Ainciso3">One-time payment of $ 25.</string>
+    <string name="Binciso2">Low quality of apps, vulnerability risks, synchronization problems.</string>
+    <string name="Binciso1">Atom, Visual Studio, Xamarin.</string>
+    <string name="Binciso3">Annual payment of $ 25.</string>
+    <string name="Cinciso3">one-time payment of $ 99.</string>
+    <string name="Cinciso2">Closed code, few free apps, little novel interface.</string>
+    <string name="Cinciso1">Angular, Html, Javascript.</string>
+
 </resources>

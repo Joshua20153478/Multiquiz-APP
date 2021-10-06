@@ -5,9 +5,139 @@
 
     </data>
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@color/black">
 
-    </LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="80dp"
+            android:layout_marginBottom="500dp"
+            android:background="@drawable/back_results"
+            android:src="@drawable/img_6"/>
+            />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="250dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="250dp"
+            android:background="@drawable/back_settings">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="100dp"
+                android:layout_marginBottom="180dp"
+                android:background="@drawable/back_results">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:autoSizeTextType="uniform"
+                    android:paddingHorizontal="3dp"
+                    android:paddingVertical="5dp"
+                    android:text="@string/question"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/back_results">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:autoSizeMaxTextSize="25dp"
+                    android:autoSizeMinTextSize="10dp"
+                    android:autoSizeTextType="uniform"
+                    android:paddingVertical="40dp"
+                    android:text="@string/question1"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="500dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="0dp"
+                android:src="@drawable/img_4" />
+
+            <TextView
+                android:id="@+id/incisoB"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="155dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginEnd="155dp"
+                android:layout_marginBottom="45dp"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/back_results"
+                android:padding="5dp"
+                android:text="@string/Binciso1"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/incisoC"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="280dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="45dp"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/back_results"
+                android:padding="5dp"
+                android:text="@string/Cinciso1"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/incisoA"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginEnd="280dp"
+                android:layout_marginBottom="45dp"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/back_results"
+                android:padding="5dp"
+                android:text="@string/Ainciso1"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+    </RelativeLayout>
 </layout>
